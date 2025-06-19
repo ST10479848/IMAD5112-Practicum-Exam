@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_1ihnfggqpl__uf1000_1000_ql80_">
+
+    <EditText
+        android:id="@+id/etSongNames"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="132dp"
+        android:text="Song Name"
+        android:textColor="#E70B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etCategory"
+        android:layout_width="103dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="112dp"
+        android:text="Category"
+        android:textColor="#DC0F0F"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etArtists"
+        android:layout_width="110dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="56dp"
+        android:text="Artist"
+        android:textColor="#E00D0D"
+        app:layout_constraintBottom_toTopOf="@+id/etRating"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etRating"
+        android:layout_width="107dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="324dp"
+        android:inputType="number"
+        android:text="Rating"
+        android:textColor="#D50D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
