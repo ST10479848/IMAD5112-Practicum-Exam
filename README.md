@@ -1,3 +1,9 @@
+Jared Kleinhans
+ST10479848
+Group 1
+
+[IMAD5112 Practicum Presentation.pptx](https://github.com/user-attachments/files/20817082/IMAD5112.Practicum.Presentation.pptx)
+
 ![Screenshot 1](https://github.com/user-attachments/assets/9a97a3ba-66c7-44ca-9fe3-77531d6d3f79)
 ![Screenshot 2](https://github.com/user-attachments/assets/dbe384eb-871c-4e60-933d-831822478cce)
 ![Screenshot 3](https://github.com/user-attachments/assets/73b60a5b-8175-4883-be7a-6c4487e515c8)
