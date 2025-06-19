@@ -2,6 +2,8 @@ Jared Kleinhans
 ST10479848
 Group 1
 
+[IMAD5112-Practicum-Exam-master.zip](https://github.com/user-attachments/files/20817102/IMAD5112-Practicum-Exam-master.zip)
+
 [IMAD5112 Practicum Presentation.pptx](https://github.com/user-attachments/files/20817082/IMAD5112.Practicum.Presentation.pptx)
 
 ![Screenshot 1](https://github.com/user-attachments/assets/9a97a3ba-66c7-44ca-9fe3-77531d6d3f79)
