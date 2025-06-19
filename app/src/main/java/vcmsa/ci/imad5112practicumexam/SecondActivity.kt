@@ -25,12 +25,12 @@ class SecondActivity : AppCompatActivity() {
         val all = findViewById<Button>(R.id.showAllButton)
         val highRating = findViewById<Button>(R.id.highRatingButton)
         val back = findViewById<Button>(R.id.backButton)
-
+        // here we pulling our Array values to our SecondActivity
         songName = intent.getStringArrayListExtra("songs") ?: arrayListOf()
         songCategory = intent.getStringArrayListExtra("categories") ?: arrayListOf()
         artistName = intent.getStringArrayListExtra("artists") ?: arrayListOf()
         songRating = intent.getIntegerArrayListExtra("ratings") ?: arrayListOf()
-
+//setting up more buttons
 all.setOnClickListener{
     output.text = buildFullList()
 }
@@ -40,7 +40,7 @@ all.setOnClickListener{
         back.setOnClickListener {
             finish()
         }
-    }
+    } // the builder is just used to filter the inputted stuff neatly
     private fun buildFullList(): String {
         val builder = StringBuilder()
         for (i in songName.indices) {
